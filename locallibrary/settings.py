@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '_0424g6sp-o2-k&3sy40%w1tns6+f2
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = [salty-retreat-37209.herokuapp.com]
+ALLOWED_HOSTS = []
 
 
 # Application definition
